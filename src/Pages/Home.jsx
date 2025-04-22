@@ -56,7 +56,9 @@ function Home() {
               
               className="slider-video"
             />
-            
+            <div className="content">
+             
+            </div>
           </div>
          
         </div>
