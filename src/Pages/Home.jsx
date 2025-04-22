@@ -56,14 +56,7 @@ function Home() {
               
               className="slider-video"
             />
-            <div className="content">
-              <h2>Shree Swami Nityanand</h2>
-              <h2>Land Developer</h2>
-              <h3>Buy Plot To Make Your Dream Home</h3>
-              <a href="#contact">
-                <button>Contact Us</button>
-              </a>
-            </div>
+            
           </div>
          
         </div>
