@@ -42,3 +42,46 @@
   color: #333333;
   margin-top: 10px;
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .amenities-container {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    padding: 15px;
+  }
+
+  .amenity-card {
+    padding: 15px;
+  }
+
+  .amenity-image {
+    width: 100px;
+    height: 100px;
+  }
+
+  .amenity-name {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .amenities-container {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .amenity-card {
+    padding: 10px;
+  }
+
+  .amenity-image {
+    width: 80px;
+    height: 80px;
+  }
+
+  .amenity-name {
+    font-size: 16px;
+  }
+}

@@ -45,16 +45,19 @@
   line-height: 1.8;
   color: #ffffff; /* Light gray text */
 }
-.services-title{
+
+.services-title {
   font-size: 25px;
   color: rgb(255, 40, 40);
   font-weight: bold;
 }
+
 .service-list {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap; /* Added for better responsiveness */
 }
 
 .service-item {
@@ -75,8 +78,8 @@
 .service-icon {
   font-size: 40px;
   color: #f44336; /* Red for icons */
-  /* margin-bottom: 15px; */
 }
+
 .service-content h3 {
   font-size: 14px;
   color: #333;
@@ -111,18 +114,83 @@
   color: #f44336; /* Red for dots */
 }
 
-@media screen and (max-width: 768px) {
-  .content {
+/* Responsive styles */
+@media screen and (max-width: 1024px) {
+  .contents {
     padding: 20px;
-    max-width: 90%;
   }
 
-  h1 {
-    font-size: 30px;
+  .h1 {
+    font-size: 28px;
+  }
+
+  .intro, .closing {
+    font-size: 18px;
+    padding: 10px 4rem;
+  }
+
+  .services-title {
+    font-size: 22px;
+  }
+
+  .service-item {
+    width: 200px;
+    padding: 10px;
+  }
+
+  .service-content h3 {
+    font-size: 16px;
+  }
+
+  .service-content p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contents {
+    padding: 15px;
+  }
+
+  .h1 {
+    font-size: 24px;
   }
 
   .intro, .closing {
     font-size: 16px;
+    padding: 10px 2rem;
+  }
+
+  .services-title {
+    font-size: 20px;
+  }
+
+  .service-item {
+    width: 180px;
+    padding: 10px;
+  }
+
+  .service-content h3 {
+    font-size: 14px;
+  }
+
+  .service-content p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .contents {
+    padding: 10px;
+  }
+
+  .h1 {
+    font-size: 20px;
+  }
+
+  .intro, .closing {
+    font-size: 14px;
+    padding: 10px 1rem;
   }
 
   .services-title {
@@ -130,12 +198,12 @@
   }
 
   .service-item {
-    width: 220px;
-    padding: 15px;
+    width: 150px;
+    padding: 8px;
   }
 
   .service-content h3 {
-    font-size: 18px;
+    font-size: 12px;
   }
 
   .service-content p {
