@@ -107,7 +107,7 @@ body {
   border-radius: 10px;
   box-shadow: 0 5px 15px rgb(153 153 31 / 33%);
   padding: 20px;
-  width: 250px;
+  width: auto;
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -166,6 +166,7 @@ body {
 
   .feature-card {
     width: 100%;
+    padding: 2px;
   }
 }
 
@@ -192,5 +193,9 @@ body {
 
   .feature-card p {
     font-size: 0.9rem;
+  }
+  .feature-card {
+    
+    padding: 2px;
   }
 }

@@ -49,7 +49,7 @@ function Home() {
           
           <div className="slide" key={currentIndex}>
             <video
-              src="https://resallingo.sfo3.digitaloceanspaces.com/resallingo/Shree%20Nagari%20III.mp4"
+              src="https://resallingo.sfo3.digitaloceanspaces.com/resallingo/WhatsApp%20Video%202025-04-23%20at%204.30.09%20PM.mp4"
               controls={false}
               autoPlay
               loop

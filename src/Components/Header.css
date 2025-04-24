@@ -18,6 +18,7 @@
   margin: 10px 20px;
   position: absolute;
 }
+
 /* Logo Section */
 .logo-container {
   display: flex;
@@ -37,9 +38,8 @@
 .menu-list {
   display: flex;
   align-items: center;
-  /* justify-content: space-between; */
   gap: 66px;
-  background-color:#ffff;
+  background-color: #ffff;
   padding: 10px 20px;
   border: 1px solid #ffff;
   border-radius: 10px;
@@ -66,17 +66,17 @@
 .menu-icon {
   font-size: 1.4rem;
   padding-right: 5px;
-  
 }
-.menuIcon{
+
+.menuIcon {
   color: #ff0000;
   font-size: 30px;
 }
-.mobile{
+
+.mobile {
   color: #ffffff;
   font-size: 22px;
 }
-
 
 /* Hamburger Styles */
 .hamburger {
@@ -149,6 +149,8 @@
 }
 
 /* Responsive Design */
+
+/* Tablet View */
 @media (min-width: 768px) {
   .menu {
     display: block;
@@ -156,5 +158,62 @@
 
   .hamburger {
     display: none;
+  }
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+  .neumorphic-header {
+    
+    padding: 10px;
+  }
+
+  .logo {
+    width: 120px;
+  }
+  .menuIcon {
+    color: #ff0000;
+    font-size: 20px;
+  }
+  
+  .mobile {
+    color: #ffffff;
+    font-size: 15px;
+  }
+  .menu-list {
+    flex-direction: column;
+    gap: 20px;
+    padding: 5px;
+  }
+
+  .menu-link {
+    font-size: 1rem;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
+
+/* Small Mobile View */
+@media (max-width: 480px) {
+  .neumorphic-header {
+    padding: 2px;
+  }
+
+  .logo {
+    width: 100px;
+  }
+
+  .menu-link {
+    font-size: 0.9rem;
+  }
+
+  .hamburger {
+    font-size: 1.5rem;
+  }
+
+  .sidebar {
+    width: 85%;
   }
 }
