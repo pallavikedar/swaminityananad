@@ -7,7 +7,7 @@ import {
 import { MdOutlineSpeed, MdPersonPin } from "react-icons/md";
 import { RiLayout5Line } from "react-icons/ri";
 import "./About.css";
-import about from '../Assets/Group 29 (4).svg'
+import about from '../Assets/Group 29 (4).jpg'
 
 const About = () => {
   return (
